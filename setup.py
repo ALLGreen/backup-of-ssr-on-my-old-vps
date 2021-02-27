@@ -1,5 +1,5 @@
 import codecs
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 with codecs.open('README.rst', encoding='utf-8') as f:
@@ -12,7 +12,7 @@ setup(
     description="base on shadowsocksR on my old vps for self use",
     author='allgreen',
     url='https://github.com/ALLGreen/backup-of-ssr-on-my-old-vps',
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     package_data={
         'shadowsocks': ['README.rst', 'LICENSE']
     },
