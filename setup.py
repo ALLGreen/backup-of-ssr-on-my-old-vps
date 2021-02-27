@@ -12,7 +12,7 @@ setup(
     description="base on shadowsocksR on my old vps for self use",
     author='allgreen',
     url='https://github.com/ALLGreen/backup-of-ssr-on-my-old-vps',
-    packages=['shadowsocks', 'shadowsocks.crypto'],
+    packages=setuptools.find_packages(),
     package_data={
         'shadowsocks': ['README.rst', 'LICENSE']
     },
