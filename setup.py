@@ -6,13 +6,12 @@ with codecs.open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="shadowsocks",
-    version="2.6.12",
+    name="my-shadowsocksR",
+    version="1.0.0",
     license='http://www.apache.org/licenses/LICENSE-2.0',
-    description="A fast tunnel proxy that help you get through firewalls",
-    author='clowwindy',
-    author_email='clowwindy42@gmail.com',
-    url='https://github.com/shadowsocks/shadowsocks',
+    description="base on shadowsocksR on my old vps for self use",
+    author='allgreen',
+    url='https://github.com/ALLGreen/backup-of-ssr-on-my-old-vps',
     packages=['shadowsocks', 'shadowsocks.crypto'],
     package_data={
         'shadowsocks': ['README.rst', 'LICENSE']
